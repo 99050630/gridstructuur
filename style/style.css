@@ -1,0 +1,104 @@
+/* font-family: 'Lato', sans-serif; */
+html, body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: 'Lato', sans-serif; 
+    font-size: 14px;
+    line-height: 20px;
+}
+h2{
+    font-size: 26px;
+    line-height: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+div.menu{
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    background-image: url("../images/header_bg.png");
+}
+    div.menu_sub{
+        margin: auto;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 600px 600px;
+    }
+            div.menu_img img{
+                width: 300px;
+            }
+        div.menu_container{
+            display: grid;
+            grid-template-columns: 85px 85px 85px 85px 85px 85px 85px;
+            padding: 37px 0;
+        }
+            div.menu_item{
+                margin-right: 40px;
+                color: #646d74;
+                cursor: pointer;
+            }
+div.front{
+    width: 100%;
+    background-image: url('../images/banner_bg.png');
+    padding: 20px 0;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    color: #fff;
+}
+    div.front_sub{
+        margin: auto;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 700px 500px;
+    }
+        div.front_img{
+            height: 320px;
+            background-image: url("../images/banner.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+        div.front_txt{
+            padding-left: 20px;
+        }
+div.grid{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    padding: 40px 0;
+}
+    div.grid_container{
+        margin: auto;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 30px;
+    }
+        div.grid_item img{
+            width: 300px;
+            height: 150px;
+
+        }
+div.footer{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    background-image: url("../images/footer_bg.png");
+    text-align: center;
+    color: #ffff;
+}
+div.front_img2{
+    height: 320px;
+    background-image: url("../images/458.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+div.front_img3{
+    height: 320px;
+    background-image: url("../images/kleding.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
